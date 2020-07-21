@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.bsma.activity.ViewEventActivity"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/go_back"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/SubjectFullFormPageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subjects Full Form List"
+        android:textColor="#429ed7"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/borderView">
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        />
+
+    <ImageView
+        android:id="@+id/borderView"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#429ed7"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/SubjectFullFormPageTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+

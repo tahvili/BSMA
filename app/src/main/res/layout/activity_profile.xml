@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_register"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_register"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_logut_bg"
+            android:layout_marginBottom="20dip"
+            android:text="@string/go_back"
+            android:textColor="@color/white" />
+
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_firstName"
+            android:inputType="textCapWords"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+
+        <EditText
+                    android:id="@+id/lastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/input_register_bg"
+                    android:hint="@string/hint_lastName"
+                    android:inputType="textCapWords"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/input_register"
+                    android:textColorHint="@color/input_register_hint" />
+
+                <EditText
+                    android:id="@+id/age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/input_register_bg"
+                    android:hint="@string/hint_age"
+                    android:inputType="numberSigned"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/input_register"
+                    android:textColorHint="@color/input_register_hint" />
+
+                <RadioGroup
+                    android:id="@+id/radg_grade"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rad_09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/grade09"
+                        android:textColor="@color/input_register" />
+
+                    <RadioButton
+                        android:id="@+id/rad_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/grade10"
+                        android:textColor="@color/input_register" />
+
+                    <RadioButton
+                        android:id="@+id/rad_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/grade11"
+                        android:textColor="@color/input_register" />
+
+                    <RadioButton
+                        android:id="@+id/rad_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/grade12"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/input_register" />
+
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/radg_sector"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/check_btv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/sector1"
+                        android:textColor="@color/input_register" />
+
+                    <CheckBox
+                        android:id="@+id/check_crew"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/sector2"
+                        android:textColor="@color/input_register" />
+                </RadioGroup>
+
+                <!-- Login Button -->
+
+                <RadioGroup
+                    android:id="@+id/radg_path"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rad_work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/path1"
+                        android:textColor="@color/input_register" />
+
+                    <RadioButton
+                        android:id="@+id/rad_college"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/path2"
+                        android:textColor="@color/input_register" />
+
+                    <RadioButton
+                        android:id="@+id/rad_uni"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/path3"
+                        android:textColor="@color/input_register" />
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/input_register_bg"
+                    android:hint="@string/hint_address"
+                    android:inputType="textPostalAddress"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/input_register"
+                    android:textColorHint="@color/input_register_hint" />
+
+        <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/input_register_bg"
+                    android:hint="@string/hint_phone"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/input_register"
+                    android:textColorHint="@color/input_register_hint" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="20dip"
+            android:text="@string/blackPassword"
+            android:textAlignment="center"
+            android:textColor="@color/input_register"
+            android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/input_register_bg"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/input_register"
+                    android:textColorHint="@color/input_register_hint" />
+
+                <EditText
+                    android:id="@+id/confirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/input_register_bg"
+                    android:hint="@string/hint_confirmPassword"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/input_register"
+                    android:textColorHint="@color/input_register_hint" />
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:background="#620000"
+                    android:text="@string/btn_update"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+    </LinearLayout>
+    </ScrollView>

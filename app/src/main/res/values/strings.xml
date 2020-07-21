@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BSMA</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_phone">(###) ###-####</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirmPassword">Confirm Password</string>
+    <string name="hint_userName">User Name</string>
+    <string name="hint_firstName">First Name</string>
+    <string name="hint_lastName">Last Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_grade">Grade</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_update">UPDATE</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="grade09">09</string>
+    <string name="grade10">10</string>
+    <string name="grade11">11</string>
+    <string name="grade12">12</string>
+    <string name="path1">Workplace</string>
+    <string name="path2">College</string>
+    <string name="path3">University</string>
+    <string name="sector1">BREBEUF TV</string>
+    <string name="sector2">TECH CREW</string>
+    <string name="email">Email: </string>
+    <string name="address">Address: </string>
+    <string name="age">Age: </string>
+    <string name="grade">Grade: </string>
+    <string name="path">Pathway: </string>
+    <string name="sector">Sector: </string>
+    <string name="phone">Phone: </string>
+    <string name="manage">MANAGE</string>
+    <string name="qr_scanner">QR</string>
+    <string name="profile">EDIT</string>
+    <string name="go_back">GO BACK</string>
+    <string name="users">MANAGE USERS</string>
+    <string name="events">MANAGE EVENTS</string>
+    <string name="newevent">CREATE A NEW EVENT</string>
+    <string name="welcome_to_the_qr_page">Welcome to the QR Page</string>
+    <string name="blackPassword">LEAVE BLANK IF YOU DON\'T WANT TO CHANGE YOUR PASSWORD</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="due_date">Due Date</string>
+    <string name="requested_by">Requested By</string>
+    <string name="save">SAVE</string>
+    <string name="due">Due?</string>
+    <string name="view_events">View Events</string>
+</resources>

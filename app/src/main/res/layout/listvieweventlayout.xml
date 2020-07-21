@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:id="@+id/listvieweventlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:context="info.androidhive.bsma.activity.ViewSingleEventActivity">
+
+
+        <LinearLayout
+            android:id="@+id/blub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/btn_logut_bg"
+                android:text="BACK"
+                android:textAlignment="center"
+                android:textColor="@color/btn_login_bg" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/btn_logut_bg"
+                android:text="DELETE"
+                android:textColor="@color/btn_login_bg" />
+
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/btn_logut_bg"
+                android:text="UPDATE"
+                android:textColor="@color/btn_login_bg" />
+
+            <Button
+                android:id="@+id/buttonUsers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/btn_logut_bg"
+                android:text="USERS"
+                android:textColor="@color/btn_login_bg" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignEnd="@+id/author"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/blub"
+            android:background="#f1f1f1"
+            android:padding="10dp"
+            android:text="BSMA_TITLE"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#050505"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/teacher"
+            android:text="BSMA_ID"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#050505"
+            android:textSize="10sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignEnd="@+id/author"
+            android:layout_below="@+id/sector"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/view"
+            android:padding="5dp"
+            android:text="BSMA_DES"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#050505"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/title"
+            android:layout_below="@+id/title"
+            android:text="POSTED ON:"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_toEndOf="@+id/textView9"
+            android:text="BSMA_DATE"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#050505"
+            android:textSize="10sp" />
+
+
+        <TextView
+            android:id="@+id/due"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView10"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_toStartOf="@+id/textView10"
+            android:text="BSMA_DUE"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#050505"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/title"
+            android:text=":DUE ON"
+            android:textAlignment="textEnd"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/due"
+            android:text="AUTHOR:"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/author"
+            android:text="REQUESTED BY:"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView12"
+            android:text="FOR:"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/sector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/teacher"
+            android:layout_toEndOf="@+id/textView13"
+            android:text="BSMA_SECTOR"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#050505"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/author"
+            android:layout_below="@+id/author"
+            android:layout_toEndOf="@+id/textView12"
+            android:text="BSMA_TEACHER"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#050505"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView11"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_toEndOf="@+id/textView11"
+            android:text="BSMA_AUTHOR"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#050505"
+            android:textSize="10sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
